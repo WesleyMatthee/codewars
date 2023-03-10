@@ -8,13 +8,10 @@
 // 625 -- > 676;
 // 114 -- > -1 since 114 is not a perfect square;
 
-
 function findNextSquare(n) {
-
-  if (n % Math.sqrt(n) !== 0) {
-    return -1;
-  } else {
-    return (Math.sqrt(n) + 1) * (Math.sqrt(n) + 1);
-  }
-
+	if (n % Math.sqrt(n) !== 0) {
+		return -1;
+	} else {
+		return (Math.sqrt(n) + 1) * (Math.sqrt(n) + 1);
+	}
 }
