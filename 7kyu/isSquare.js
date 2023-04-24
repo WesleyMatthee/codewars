@@ -4,12 +4,13 @@
 
 // The tests will always use some integral number, so don't worry about that in dynamic typed languages.;
 
-const isSquare = function(n) {
-  // create new var integer; Math.floor random parameter(n); get the sqrt of parameter(n).
-  const num = Math.floor(Math.sqrt(n));
-  if (num * num !== n) { //Always test for false (unhappy path).
-    return false;
-  } else {
-    return true;
-  }
+const isSquare = function (n) {
+	// create new var integer; Math.floor random parameter(n); get the sqrt of parameter(n).
+	const num = Math.floor(Math.sqrt(n));
+	if (num * num !== n) {
+		//Always test for false (unhappy path).
+		return false;
+	} else {
+		return true;
+	}
 };

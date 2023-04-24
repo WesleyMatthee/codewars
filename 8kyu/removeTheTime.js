@@ -13,7 +13,6 @@ Output
 Output will be the shortened string, e.g., "Friday May 2".
 */
 
-
 function shortenToDate(longDate) {
 	let longDateArray = longDate.split(' ');
 	//   console.log(longDateArray);
