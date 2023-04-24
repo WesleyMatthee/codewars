@@ -24,3 +24,11 @@ function likes(names) {
 		return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
 	}
 }
+
+function change_state(input_state) {
+	if (input_state !== null) {
+		previous_state = current_state;
+		current_state = input_state;
+		return current_state;
+	}
+}
