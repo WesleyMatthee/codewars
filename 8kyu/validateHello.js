@@ -24,3 +24,22 @@ function validateHello(greetings) {
 	return /hello|ciao|salut|hallo|hola|ahoj|czesc/i.test(greetings);
 }
 
+//Vanilla JavaScript
+// const hellos = {
+// 	hello: 'english',
+// 	ciao: 'italian',
+// 	salut: 'french',
+// 	hallo: 'german',
+// 	hola: 'spanish',
+// 	ahoj: 'czech republic',
+// 	czesc: 'polish',
+// };
+
+// const validateHello2 = greetings => {
+// 	for (key in hellos) {
+// 		if (greetings.toLowerCase().includes(key)) {
+// 			return true;
+// 		}
+// 	}
+// 	return false;
+// };
