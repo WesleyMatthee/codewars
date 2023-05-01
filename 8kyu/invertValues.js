@@ -10,3 +10,4 @@ You can assume that all values are integers. Do not mutate the input array/list.
 function invert(array) {
 	return array.map(num => num * -1);
 }
+
