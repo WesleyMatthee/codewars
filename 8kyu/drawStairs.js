@@ -31,5 +31,6 @@ function drawStairs(n) {
 }
 
 //SMART ONE LINER
-const drawStairs = n =>
-	[...Array(n)].map((_, i) => ' '.repeat(i) + 'I').join('\n');
+// const drawStairs = n =>
+// 	[...Array(n)].map((_, i) => ' '.repeat(i) + 'I').join('\n');
+console.log(drawStairs(20));
