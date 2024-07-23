@@ -14,3 +14,10 @@ function betterThanAverage(classPoints, yourPoints) {
 	let classAve = classTotal / classPoints.length;
 	return yourPoints > classAve ? true : false;
 }
+
+// ~~This is using reduce~~
+function betterThanAverage(classPoints, yourPoints) {
+	return (
+		yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length
+	);
+}
