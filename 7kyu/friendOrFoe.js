@@ -15,3 +15,14 @@ Note: keep the original order of the names in the output.*/
 function friend(friends) {
 	return friends.filter(name => name.length == 4);
 }
+
+//Vanilla way
+function friend(friends) {
+	let friendList = [];
+	for (let i = 0; i < friends.length; i++) {
+		if (friends[i].length == 4) {
+			friendList.push(friends[i]);
+		}
+	}
+	return friendList;
+}
