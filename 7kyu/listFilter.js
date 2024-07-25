@@ -14,3 +14,8 @@ function filter_list(l) {
 	});
 	return numArray;
 }
+
+//using the filter function
+function filter_list(l) {
+	return l.filter(v => typeof v == 'number');
+}
