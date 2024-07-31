@@ -17,3 +17,11 @@ function broken(x) {
 	}
 	return result.join('');
 }
+
+//Using Map
+function broken(x) {
+	return x
+		.split('')
+		.map(a => (a == '0' ? '1' : '0'))
+		.join('');
+}
